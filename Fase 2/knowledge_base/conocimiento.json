@@ -1,0 +1,278 @@
+{
+  "dominio": "Actividad Física y Hábitos Saludables",
+  "descripcion": "Base de conocimiento construida a partir de directrices de la OMS, SOCHOB, INTA-Universidad de Chile y Bupa Salud, orientada a promover estilos de vida activos y saludables en la población chilena.",
+  "fuentes": [
+    {
+      "id": "OMS2020",
+      "titulo": "Directrices de la OMS Sobre Actividad Física y Comportamientos Sedentarios",
+      "organizacion": "Organización Mundial de la Salud (OMS)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK581973/",
+      "anio": 2020
+    },
+    {
+      "id": "SOCHOB2021",
+      "titulo": "Orientación Técnica: Actividad Física según Curso de Vida y Comorbilidad",
+      "organizacion": "Sociedad Chilena de Obesidad (SOCHOB)",
+      "url": "https://www.sochob.cl/web1/wp-content/uploads/2021/08/Orientaci%C3%B3n-t%C3%A9cnica-Actividad-f%C3%ADsica-de-ejercicio-seg%C3%BAn-curso-de-vida-y-comorbilidad-Parte-I..pdf",
+      "anio": 2021
+    },
+    {
+      "id": "INTA2023",
+      "titulo": "Guía para una Vida Saludable",
+      "organizacion": "INTA - Universidad de Chile",
+      "url": "https://inta.uchile.cl/dam/jcr:cf46f1fc-5734-4d72-a67b-7ce7b6495651/Guia_para_una_vida_saludable.pdf",
+      "anio": 2023
+    },
+    {
+      "id": "BUPA2024",
+      "titulo": "Hábitos Saludables",
+      "organizacion": "Bupa Salud",
+      "url": "https://www.bupasalud.com/salud/habitos-saludables",
+      "anio": 2024
+    }
+  ],
+  "grupos_poblacionales": [
+    {
+      "grupo": "Niños y adolescentes (5-17 años)",
+      "actividad_fisica": {
+        "minutos_semana": "Al menos 60 minutos diarios (420 min/semana)",
+        "tipo_principal": "Aeróbica de intensidad moderada a vigorosa",
+        "actividades_adicionales": "Actividades vigorosas y de fortalecimiento muscular y óseo al menos 3 días/semana",
+        "contextos": ["recreativo", "educación física", "desplazamientos", "quehaceres domésticos"],
+        "beneficios": [
+          "Mejora de la capacidad cardiorrespiratoria y muscular",
+          "Mejora de la salud cardiometabólica (tensión, glucosa, resistencia a la insulina)",
+          "Mejora de la salud ósea",
+          "Mejores resultados cognitivos y desempeño académico",
+          "Mejora de la salud mental (menos síntomas de depresión)",
+          "Reducción de la adiposidad"
+        ],
+        "sedentarismo": "Limitar el tiempo sedentario, especialmente el tiempo de pantalla recreativo",
+        "fuente": "OMS2020"
+      }
+    },
+    {
+      "grupo": "Adultos (18-64 años)",
+      "actividad_fisica": {
+        "minutos_moderada_semana": "150-300 minutos de actividad aeróbica moderada",
+        "minutos_vigorosa_semana": "75-150 minutos de actividad aeróbica vigorosa",
+        "alternativa": "Combinación equivalente de moderada y vigorosa",
+        "fortalecimiento": "Actividades de fortalecimiento muscular ≥2 días/semana trabajando todos los grandes grupos musculares",
+        "meta_avanzada": "Superar los 300 min moderada o 150 min vigorosa para mayores beneficios",
+        "tipo_principal": "Aeróbica (caminar, correr, bicicleta, natación) + fortalecimiento",
+        "declaraciones_buenas_practicas": [
+          "Hacer algo de actividad física es mejor que permanecer totalmente inactivo",
+          "Si no se cumplen las recomendaciones completas, cualquier actividad es beneficiosa",
+          "Comenzar con pequeñas dosis y aumentar gradualmente duración, frecuencia e intensidad"
+        ],
+        "beneficios": [
+          "Reducción de mortalidad por todas las causas y mortalidad cardiovascular",
+          "Menor incidencia de hipertensión",
+          "Menor incidencia de cáncer (vejiga, mama, colon, endometrio, estómago, riñón)",
+          "Menor incidencia de diabetes tipo 2",
+          "Mejora de la salud mental (menos ansiedad y depresión)",
+          "Mejora de la salud cognitiva",
+          "Mejora del sueño",
+          "Posible mejora de la adiposidad"
+        ],
+        "sedentarismo": "Limitar el tiempo sedentario; reemplazar tiempo sedentario con actividad física de cualquier intensidad",
+        "fuente": "OMS2020"
+      }
+    },
+    {
+      "grupo": "Personas mayores (65+ años)",
+      "actividad_fisica": {
+        "minutos_moderada_semana": "150-300 minutos de actividad aeróbica moderada",
+        "minutos_vigorosa_semana": "75-150 minutos de actividad aeróbica vigorosa",
+        "alternativa": "Combinación equivalente de moderada y vigorosa",
+        "fortalecimiento": "Actividades de fortalecimiento muscular ≥2 días/semana",
+        "equilibrio_funcional": "Actividades multicomponente (equilibrio y fuerza) ≥3 días/semana para prevenir caídas",
+        "beneficios": [
+          "Reducción de mortalidad por todas las causas y mortalidad cardiovascular",
+          "Menor incidencia de hipertensión, cáncer y diabetes tipo 2",
+          "Mejora de la salud mental (menos ansiedad y depresión)",
+          "Mejora de la salud cognitiva y del sueño",
+          "Prevención de caídas y lesiones por caídas",
+          "Prevención del deterioro óseo y funcional",
+          "Mejora de la adiposidad"
+        ],
+        "sedentarismo": "Limitar el tiempo sedentario; para quienes no pueden cumplir las recomendaciones, mantenerse activos según sus capacidades",
+        "fuente": "OMS2020"
+      }
+    },
+    {
+      "grupo": "Mujeres embarazadas y en puerperio",
+      "actividad_fisica": {
+        "minutos_semana": "Al menos 150 minutos de actividad aeróbica moderada por semana",
+        "tipo_principal": "Aeróbica moderada + fortalecimiento muscular + estiramientos",
+        "condicion": "Sin contraindicaciones médicas",
+        "continuidad": "Las mujeres que practicaban actividad vigorosa antes del embarazo pueden continuar durante el embarazo y puerperio",
+        "beneficios_maternos": [
+          "Menor riesgo de preeclampsia e hipertensión gestacional",
+          "Menor riesgo de diabetes gestacional",
+          "Menor aumento excesivo de peso durante el embarazo",
+          "Menor riesgo de depresión postparto",
+          "Menos complicaciones en el parto"
+        ],
+        "beneficios_fetales": [
+          "Sin efectos nocivos en el peso al nacer",
+          "Sin incremento del riesgo de muerte fetal",
+          "Menos complicaciones neonatales"
+        ],
+        "fuente": "OMS2020"
+      }
+    },
+    {
+      "grupo": "Adultos con afecciones crónicas (diabetes tipo 2, hipertensión, cáncer, VIH)",
+      "actividad_fisica": {
+        "minutos_moderada_semana": "150-300 minutos de actividad aeróbica moderada",
+        "minutos_vigorosa_semana": "75-150 minutos de actividad aeróbica vigorosa",
+        "fortalecimiento": "Actividades de fortalecimiento muscular ≥2 días/semana",
+        "condicion": "Siempre que no existan contraindicaciones médicas",
+        "beneficios_diabetes_tipo2": [
+          "Reducción de la mortalidad cardiovascular",
+          "Mejora de los indicadores de progresión de la enfermedad",
+          "Mejor control de la glucemia",
+          "Reducción de la resistencia a la insulina"
+        ],
+        "beneficios_hipertension": [
+          "Mejora de la mortalidad cardiovascular",
+          "Mejora de la función física y calidad de vida",
+          "Frena la progresión de la enfermedad"
+        ],
+        "beneficios_cancer": [
+          "Mejora de la mortalidad por todas las causas",
+          "Reducción del riesgo de recidiva o segundos tumores"
+        ],
+        "beneficios_generales": [
+          "Mejora de la forma física y salud mental",
+          "Menor presencia de síntomas de ansiedad y depresión"
+        ],
+        "fuente": "OMS2020"
+      }
+    }
+  ],
+  "habitos_saludables": {
+    "alimentacion": {
+      "descripcion": "Dieta equilibrada con ingesta adecuada de nutrientes esenciales",
+      "recomendaciones": [
+        "Incluir alimentos de diferentes grupos: verduras, frutas, granos enteros, proteínas magras",
+        "Limitar alimentos procesados, azúcares añadidos, grasas trans y sodio en exceso",
+        "Optar por alimentos frescos y naturales",
+        "Controlar la calidad además de la cantidad de alimentos consumidos"
+      ],
+      "fuente": "BUPA2024"
+    },
+    "hidratacion": {
+      "descripcion": "El agua interviene en la mayoría de funciones fisiológicas del cuerpo",
+      "recomendacion_general": "Al menos 8 vasos de agua al día (aproximadamente 2 litros)",
+      "condiciones_especiales": "Aumentar la ingesta durante actividad física intensa o exposición a altas temperaturas",
+      "beneficios": [
+        "Absorción eficiente de nutrientes",
+        "Regulación de la temperatura corporal",
+        "Eliminación eficiente de toxinas y desechos"
+      ],
+      "fuente": "BUPA2024"
+    },
+    "sueno": {
+      "descripcion": "El sueño de calidad es esencial para la recuperación física y mental",
+      "recomendaciones": [
+        "Mantener un horario de sueño constante (acostarse y levantarse a la misma hora)",
+        "Establecer rituales regulares antes de dormir",
+        "Limitar el consumo de cafeína, especialmente en la tarde-noche",
+        "Limitar las siestas durante el día",
+        "Usar el dormitorio exclusivamente para dormir",
+        "Evitar pantallas antes de dormir"
+      ],
+      "horas_recomendadas": {
+        "ninos_6_12": "9-12 horas",
+        "adolescentes_13_18": "8-10 horas",
+        "adultos_18_64": "7-9 horas",
+        "mayores_65": "7-8 horas"
+      },
+      "fuente": "BUPA2024"
+    },
+    "salud_mental": {
+      "descripcion": "Cuidar la salud mental es parte integral de un estilo de vida saludable",
+      "recomendaciones": [
+        "Encontrar actividades de disfrute personal",
+        "Practicar meditación o mindfulness",
+        "Limitar el tiempo en redes sociales",
+        "Gestionar el estrés de forma saludable (yoga, meditación, ejercicio)",
+        "Mantener relaciones sociales positivas",
+        "Buscar ayuda profesional cuando sea necesario"
+      ],
+      "beneficios_ejercicio_salud_mental": [
+        "Libera endorfinas que generan bienestar",
+        "Combate el estrés y la ansiedad",
+        "Reduce síntomas de depresión",
+        "Mejora la autoestima y el estado de ánimo",
+        "Mejora la calidad del sueño"
+      ],
+      "fuente": "BUPA2024"
+    },
+    "habitos_a_evitar": [
+      "Consumo de tabaco (aumenta riesgo de enfermedades cardiovasculares y cáncer)",
+      "Consumo excesivo de alcohol",
+      "Sedentarismo (permanecer inactivo durante largos períodos)",
+      "Exposición excesiva a pantallas",
+      "Mala gestión del estrés (puede causar ansiedad, depresión, enfermedades del corazón)",
+      "Dieta rica en alimentos procesados, azúcares y grasas trans",
+      "Falta de sueño o sueño de mala calidad",
+      "Aislamiento social"
+    ],
+    "fuente": "BUPA2024"
+  },
+  "preguntas_validacion": [
+    {
+      "pregunta": "¿Cuántos minutos de actividad física a la semana debe realizar un adulto de 30 años?",
+      "respuesta_clave": "Un adulto de 30 años (18-64 años) debe acumular entre 150 y 300 minutos de actividad física aeróbica de intensidad moderada por semana, o bien entre 75 y 150 minutos de intensidad vigorosa, o una combinación equivalente. Además, debe incluir actividades de fortalecimiento muscular al menos 2 días por semana. Superar los 300 minutos de moderada o 150 de vigorosa proporciona mayores beneficios.",
+      "fuente": "OMS2020"
+    },
+    {
+      "pregunta": "¿Qué tipo de actividad física se recomienda para niños y adolescentes?",
+      "respuesta_clave": "Los niños y adolescentes (5-17 años) deben realizar al menos 60 minutos diarios de actividad física principalmente aeróbica de intensidad moderada a vigorosa. Al menos 3 días a la semana deben incluirse actividades aeróbicas vigorosas y actividades de fortalecimiento muscular y óseo. Pueden realizarla como juegos, deportes, educación física, caminata o bicicleta.",
+      "fuente": "OMS2020"
+    },
+    {
+      "pregunta": "¿Las mujeres embarazadas pueden hacer ejercicio? ¿Cuánto se recomienda?",
+      "respuesta_clave": "Sí, las mujeres embarazadas sin contraindicaciones médicas deben realizar actividad física regular. Se recomienda al menos 150 minutos de actividad aeróbica de intensidad moderada por semana, incorporando actividades de fortalecimiento muscular y estiramientos. Esto reduce el riesgo de diabetes gestacional, preeclampsia, depresión postparto y complicaciones en el parto, sin efectos negativos para el bebé.",
+      "fuente": "OMS2020"
+    },
+    {
+      "pregunta": "¿Qué beneficios tiene la actividad física para personas mayores de 65 años?",
+      "respuesta_clave": "Para las personas mayores de 65 años, la actividad física regular reduce la mortalidad por todas las causas y la cardiovascular, disminuye la incidencia de hipertensión, cáncer y diabetes tipo 2, mejora la salud mental (menos ansiedad y depresión), mejora la salud cognitiva y el sueño, y especialmente previene caídas y lesiones, además de mantener la salud ósea y funcional.",
+      "fuente": "OMS2020"
+    },
+    {
+      "pregunta": "¿Cuánta agua se debe beber al día para mantenerse bien hidratado?",
+      "respuesta_clave": "Se recomienda beber al menos 8 vasos de agua al día (aproximadamente 2 litros). Esta cantidad puede incrementarse cuando se realizan actividades físicas intensas o cuando se está expuesto a altas temperaturas. La hidratación adecuada es fundamental para la absorción de nutrientes, la regulación de la temperatura corporal y la eliminación de toxinas.",
+      "fuente": "BUPA2024"
+    },
+    {
+      "pregunta": "¿Qué hábitos de sueño son importantes para la salud?",
+      "respuesta_clave": "Los hábitos clave de sueño incluyen: mantener un horario constante de acostarse y levantarse, crear rituales de relajación previos al sueño, limitar la cafeína especialmente por la tarde, reducir siestas diurnas, usar el dormitorio solo para dormir y evitar pantallas antes de acostarse. Los adultos necesitan 7-9 horas de sueño, los adolescentes 8-10 horas y los mayores de 65 años entre 7-8 horas.",
+      "fuente": "BUPA2024"
+    },
+    {
+      "pregunta": "¿Pueden hacer ejercicio las personas con diabetes tipo 2? ¿Qué beneficios obtienen?",
+      "respuesta_clave": "Sí, las personas con diabetes tipo 2 deben hacer ejercicio regularmente (salvo contraindicación médica). Se recomiendan 150-300 minutos semanales de actividad aeróbica moderada más fortalecimiento muscular 2+ días/semana. Los beneficios incluyen reducción de la mortalidad cardiovascular, mejor control de la glucemia, reducción de la resistencia a la insulina y mejora de los indicadores de progresión de la enfermedad.",
+      "fuente": "OMS2020"
+    },
+    {
+      "pregunta": "¿Qué beneficios tiene el ejercicio para la salud mental?",
+      "respuesta_clave": "El ejercicio libera endorfinas que actúan como analgésicos naturales y generan sensación de bienestar. Combate el estrés y la ansiedad, reduce síntomas de depresión, mejora la autoestima y el estado de ánimo, y mejora la calidad del sueño. La actividad física regular se asocia con menor presencia de síntomas de ansiedad y depresión en todos los grupos de edad.",
+      "fuente": "BUPA2024"
+    },
+    {
+      "pregunta": "¿Es mejor hacer algo de actividad física aunque no se cumplan las recomendaciones completas?",
+      "respuesta_clave": "Sí, absolutamente. La OMS establece claramente que hacer algo de actividad física es siempre mejor que permanecer totalmente inactivo. Incluso si no se cumplen las recomendaciones completas, cualquier nivel de actividad física reporta beneficios para la salud. Se recomienda comenzar con pequeñas dosis y aumentar gradualmente la duración, frecuencia e intensidad.",
+      "fuente": "OMS2020"
+    },
+    {
+      "pregunta": "¿Qué hábitos se deben evitar para mantener una buena salud?",
+      "respuesta_clave": "Para mantener una buena salud se deben evitar: el consumo de tabaco y alcohol, el sedentarismo (largas horas sin moverse), la exposición excesiva a pantallas, la mala gestión del estrés, el consumo de alimentos procesados ricos en azúcares añadidos y grasas trans, la falta de sueño de calidad y el aislamiento social. Eliminar estos hábitos nocivos, junto con adoptar hábitos saludables, produce resultados positivos a largo plazo.",
+      "fuente": "BUPA2024"
+    }
+  ]
+}
